@@ -1,21 +1,23 @@
-Policy for publishing build artifacts
-===================================== 
+Publishing binary images
+========================== 
 
-Since there are parts of the code which are licensed as GPL we are
-obligated to provide complete and corresponding source code together with
-publication of any binary artifact on request. Furthermore, the license
-demands that the source code is available for three years.
+We release binary images of our products that are licensed under the 
+[https://www.gnu.org/licenses/old-licenses/gpl-2.0.html](GNU Public License).
+This is considered "distribution" under the GPL. When distributing binaries, 
+or object code, covered under the GPL "complete and corresponding" source code 
+is required to be provided as well. We comply with these obligations 
+by publishing source code on GitHub and through our continuous integration 
+system (CI).
 
-Consequences
-------------
-In order to not violate the license, all public CI systems need to publish
-corresponding source code together with _any_ build artifact. This includes
-things like yocto sstatecache.
+In order to comply with all FOSS software licenses, public CI systems must 
+plublish complete and corresponding source code in conjunction with the publishing
+of object code. This include a yocto sstatecache, binary images for hardware 
+targets, and binary packages, like rpms or debs.
 
-Desition
+Decision
 --------
-When doing a release of a full systems or product this is not that a
-problem (assuming that there is no external propriatary code).
+When doing a release of a full system or product this is not that a
+problem (assuming that there is no external proprietary code).
 
 However, in a context where publishing is done often the requirement
 to store the source code leads to disk space issues. An example is when
@@ -25,4 +27,4 @@ to be available for each published iteration of each publish binary.
 Conclusion
 ----------
 To avoid unforseen cost of storing old source code, do not publish any
-binaries publically without first gotten the approval to do so.
+binaries publically without first receiving approval.
