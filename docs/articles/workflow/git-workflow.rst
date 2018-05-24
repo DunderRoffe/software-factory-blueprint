@@ -41,6 +41,7 @@ been set up yet. To quick fix ::
 Then add your new SSH key to the account on the git web frontend.
 A long guide (for GitHub) can be found here: https://help.github.com/articles/connecting-to-github-with-ssh/
 
+.. _git-workflow-for-each-set-of-changes-label:
 
 For each set of changes
 =======================
