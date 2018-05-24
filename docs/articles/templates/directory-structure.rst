@@ -1,3 +1,5 @@
+.. _source-code-repository-directory-structure-label:
+
 Source code repository directory structure
 ==========================================
 
