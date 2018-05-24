@@ -10,6 +10,8 @@ general enough so that it works in both GitHub, GitLab and Bitbucket, at least.
 Assume in the examples below that the URL to the repo is
 ``git@github.com:Pelagicore/software-factory.git``.
 
+.. _git-workflow-general-setup-label:
+
 General setup
 =============
 #. Fork the repo. In most git frontends, that fork will end up at
